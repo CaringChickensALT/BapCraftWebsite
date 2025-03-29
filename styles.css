@@ -1,0 +1,97 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    position: relative;
+    overflow-x: hidden;
+    background-color: #111; /* Add a fallback background color */
+}
+
+/* Video Background */
+.video-background {
+    position: fixed; /* Keep the video fixed in the background */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35%; /* Make the video fill the entire page */
+    z-index: -1; /* Position the video behind the content */
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire screen */
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent background */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #444;
+    position: relative;
+    z-index: 1; /* Keep header content above the video */
+}
+
+header .logo h1 {
+    color: #00c1ff;
+    font-size: 2.5em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #00c1ff;
+}
+
+/* About Section Styling */
+#about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    position: relative;
+    z-index: 2; /* Keep the text above the video */
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2em;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+footer p {
+    font-size: 1.1em;
+}

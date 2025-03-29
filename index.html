@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join BapCraft Minecraft Network. Play Survival, Skyblock, and Gens with friends!">
+    <title>BapCraft Minecraft Network</title>
+    <link rel="icon" href="bapcraftlogo.ico" sizes="64x64">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Button styles */
+        .cta-button, .game-button {
+            display: inline-block;
+            padding: 12px 20px;
+            margin: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        
+        /* Discord button specific styles */
+        .cta-button {
+            background-color: #7289da;
+            color: white;
+        }
+
+        .cta-button:hover {
+            background-color: #5b6eae;
+            transform: scale(1.05);
+        }
+
+        /* Game buttons specific styles */
+        .game-button {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .game-button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+
+        .game-card a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body class="home-page">
+    <header>
+        <div class="logo">
+            <h1>BapCraft</h1>
+            <p>The Ultimate Minecraft Network</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#connect">Connect</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>Join the BapCraft Network</h2>
+            <p>Experience the best Minecraft server with Survival, Skyblock, and Gens!</p>
+            <a href="https://discord.gg/4tFG7HjMfM" class="cta-button" target="_blank">Join Our Discord</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About BapCraft</h2>
+        <p>BapCraft is a community-driven Minecraft network, offering a variety of exciting game modes such as Survival, Skyblock, and Gens. Connect with friends, build, explore, and enjoy our custom features!</p>
+        <br>
+        <div>
+          <h1 id="player-count">Loading server status...</h1>
+      </div>
+    </section>
+
+    <section id="games">
+        <h2>Game Modes</h2>
+        <div class="game-cards">
+            <div class="game-card">
+                <h3><a href="survival.html" class="game-button">Survival</a></h3>
+                <p>Explore a vast world, survive the challenges, and build your empire.</p>
+            </div>
+            <div class="game-card">
+                <h3><a href="skyblock.html" class="game-button">Skyblock</a></h3>
+                <p>Start on a tiny island and create your own paradise in the sky.</p>
+            </div>
+            <div class="game-card">
+                <h3><a href="gens.html" class="game-button">Gens</a></h3>
+                <p>Build and manage your generators to earn resources and grow your empire.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="connect">
+        <h2>How to Connect</h2>
+        <p>Simply open Minecraft and join us using the IP:</p>
+        <div class="server-ip">
+            <h3>mc.bapcraft.org</h3>
+            <p>Start your adventure today!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 BapCraft Minecraft Network. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
