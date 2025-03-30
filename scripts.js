@@ -10,7 +10,7 @@ async function getServerStatus() {
         if (data.online) {
             const playerCount = data.players.online;
             const maxPlayers = data.players.max;
-            const playerText = `<span style="color: #6cff52;">${playerCount} / ${maxPlayers} player(s) online</span>`;
+            const playerText = `<span style="color: #6cff52; text-shadow: 0 0 10px #6cff52, 0 0 20px #6cff52, 0 0 30px #6cff52, 0 0 40px #6cff52, 0 0 50px #6cff52, 0 0 75px #6cff52, 0 0 100px #6cff52;">${playerCount} / ${maxPlayers} player(s) online</span>`;
 
             // Check if the element exists before updating
             const playerCountElement = document.getElementById('player-count');
