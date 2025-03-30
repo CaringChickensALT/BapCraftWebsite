@@ -23,7 +23,7 @@ async function getServerStatus() {
             // Check if the player list is available
             if (data.players.list && data.players.list.length > 0) {
                 const playerNames = data.players.list;
-                let playerListText = "Player(s) online: <ul>";
+                let playerListText = '<span style="color: green;">Player(s) online:</span> <ul>';
 
                 // Create a list of player names
                 playerNames.forEach(player => {
