@@ -83,6 +83,12 @@
         .game-card a {
             color: white;
             text-decoration: none;
+        
+          var discordWidget = document.createElement('script');
+          discordWidget.src = "https://discord.com/widget?id=1332909953480134747&theme=dark";
+          discordWidget.async = true;
+          document.getElementById('discord-widget').appendChild(discordWidget);
+            
         }
     </style>
 </head>
@@ -107,6 +113,7 @@
             <h2>Join the BapCraft Network</h2>
             <p>Experience the best Minecraft server with Survival, Skyblock, and Gens!</p>
             <a href="https://discord.gg/4tFG7HjMfM" class="cta-button" target="_blank">Join Our Discord</a>
+            <div id="discord-widget"></div>
         </div>
     </section>
 
